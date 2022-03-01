@@ -32,10 +32,10 @@ reflare.push({
       'POST',
     ],
     allowedHeaders: [
-      '*',
+      'a-soul.fans',
     ],
     exposedHeaders: [
-      '*',
+      'a-soul.fans',
     ],
     credentials: false,
     maxAge: 86400,
