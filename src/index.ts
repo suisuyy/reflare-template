@@ -23,24 +23,20 @@ reflare.push({
     },
   ],
   cors: {
-    origin: 'a-soul.fans',
+    origin: true,
+    methods: [
+      'GET',
+      'POST',
+    ],
+    allowedHeaders: [
+      '*',
+    ],
+    exposedHeaders: [
+      '*',
+    ],
+    credentials: true,
+    maxAge: 86400,
   },
-
-  // cors: {
-  //   origin: true,
-  //   methods: [
-  //     'GET',
-  //     'POST',
-  //   ],
-  //   allowedHeaders: [
-  //     '*',
-  //   ],
-  //   exposedHeaders: [
-  //     '*',
-  //   ],
-  //   credentials: false,
-  //   maxAge: 86400,
-  // },
 
 
 
