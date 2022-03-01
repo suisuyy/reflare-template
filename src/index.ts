@@ -22,6 +22,9 @@ reflare.push({
       weight: 50,
     },
   ],
+  cors: {
+    origin: '*',
+  },
   /* ... */
 });
 
