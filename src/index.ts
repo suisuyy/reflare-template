@@ -24,21 +24,31 @@ reflare.push({
 
   ],
   cors: {
-    origin: true,
-    methods: [
-      'GET',
-      'POST',
-    ],
-    allowedHeaders: [
-      '*',
-    ],
-    exposedHeaders: [
-      '*',
-    ],
-    credentials: true,
-    maxAge: 86400,
+    origin: '*',
   },
 
+  // cors: {
+  //   origin: ['https://music.a-soul.fans'],
+  //   methods: [
+  //     'GET',
+  //     'POST',
+  //   ],
+  //   allowedHeaders: [
+  //     'music.a-soul.fans',
+  //   ],
+  //   exposedHeaders: [
+  //     'music.a-soul.fans',
+  //   ],
+  //   credentials: false,
+  //   maxAge: 86400,
+  // },
+  // headers: {
+  //   request: {
+  //     'x-example-header': 'hello server',
+  //   },
+  //   response: {
+  //     'x-example-header': 'hello client',
+  //   },
 
 
   /* ... */
