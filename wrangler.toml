@@ -1,4 +1,4 @@
-name = 'template'
+name = 'as-archive-load-balance'
 type = 'javascript'
 account_id = ''
 usage_model = ''
