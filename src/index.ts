@@ -25,8 +25,8 @@ reflare.push({
   ],
   cors: {
     origin: '*',
+    maxAge: 1800,
   },
-  maxAge: 1800,
 
   // cors: {
   //   origin: ['https://music.a-soul.fans'],
