@@ -12,12 +12,12 @@ reflare.push({
   },
   upstream: [
     {
-      domain: 'as-archive.a-soul.fans',
+      domain: 'as-archive.kzmidc.workers.dev',
       protocol: 'https',
       weight: 50,
     },
     {
-      domain: 'as-archive-02.a-soul.fans',
+      domain: 'as-archive-02.kzmidc.workers.dev',
       protocol: 'https',
       weight: 50,
     },
