@@ -17,7 +17,7 @@ reflare.push({
       weight: 50,
     },
     {
-      domain: 'as-archive-02.a-soul.fans',
+      domain: 'example.com',
       protocol: 'https',
       weight: 50,
     },
